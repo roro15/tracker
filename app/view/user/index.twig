@@ -1,0 +1,13 @@
+{% extends "layout.twig" %}
+{% block stylesheet %}
+	{{ parent() }}
+{% endblock %}
+{% block script %}
+	{{ parent() }}
+	<script src="/js/underscore/underscore.js"></script>
+	<script src="/js/backbone/backbone.js"></script>
+	<script src="/js/app/app.js"></script>
+{% endblock %}
+{% block content %}
+<h1>XA XA XA it {{ status }}</h1>
+{% endblock %}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	{% block head %}
+	{% endblock %}
+	{% block title %}
+		<title>Хз что</title>
+	{% endblock %}
+	{% block stylesheet %}
+		<link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="/css/index.css">
+	{% endblock %}
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			{% block content %}
+			{% endblock %}
+		</div>
+	</div>
+	{% block script %}
+		<script src="/js/bootstrap/bootstrap.js"></script>
+		<script src="/js/jquery/jquery-1.11.1.js"></script>
+	{% endblock %}
+</body>
+</html>
