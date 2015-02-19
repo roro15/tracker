@@ -1,7 +1,7 @@
 <?php
 
 /* layout.twig */
-class __TwigTemplate_518041cc92019e00e1d1489fd0bedc16e235b07669d294f78e6cb3c2f39a3f61 extends Twig_Template
+class __TwigTemplate_3ae7f8a99e291b24e326e8aaa2a4cc9b29d4ec14bf027b312788ec2b9aed870a extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -88,8 +88,8 @@ class __TwigTemplate_518041cc92019e00e1d1489fd0bedc16e235b07669d294f78e6cb3c2f39
     public function block_script($context, array $blocks = array())
     {
         // line 23
-        echo "\t\t<script src=\"/js/bootstrap/bootstrap.js\"></script>
-\t\t<script src=\"/js/jquery/jquery-1.11.1.js\"></script>
+        echo "\t\t<script src=\"/js/jquery/jquery-1.11.1.js\"></script>
+\t\t<script src=\"/js/bootstrap/bootstrap.js\"></script>\t\t
 \t";
     }
 
@@ -100,6 +100,6 @@ class __TwigTemplate_518041cc92019e00e1d1489fd0bedc16e235b07669d294f78e6cb3c2f39
 
     public function getDebugInfo()
     {
-        return array (  91 => 23,  88 => 22,  84 => 19,  81 => 18,  75 => 11,  72 => 10,  67 => 8,  64 => 7,  60 => 6,  57 => 5,  52 => 26,  50 => 22,  46 => 20,  44 => 18,  38 => 14,  35 => 10,  32 => 7,  24 => 1,  56 => 12,  53 => 11,  43 => 6,  40 => 5,  33 => 3,  30 => 5,);
+        return array (  91 => 23,  88 => 22,  84 => 19,  81 => 18,  75 => 11,  72 => 10,  67 => 8,  64 => 7,  60 => 6,  57 => 5,  52 => 26,  50 => 22,  46 => 20,  44 => 18,  38 => 14,  35 => 10,  32 => 7,  30 => 5,  24 => 1,);
     }
 }

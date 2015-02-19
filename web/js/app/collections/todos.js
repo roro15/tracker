@@ -1,4 +1,4 @@
-var app = || {};
+var app = app || {};
 
 var TodoList = Backbone.Collection.extend({
 	model: app.Todo,

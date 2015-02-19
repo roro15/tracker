@@ -1,0 +1,1 @@
+[Thu Feb 19 18:50:58.580984 2015] [:error] [pid 2847] [client 192.168.0.96:2235] PHP Fatal error:  Multiple access type modifiers are not allowed in /var/www/tracker/htdocs/app/class/DB.php on line 12
